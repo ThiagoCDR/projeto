@@ -87,7 +87,7 @@ body * {
 }
 
 #switch button:hover {
-  outline: 8px solid var(--highlight-color-hover)
+  outline: 8px solid var(--highlight-color-hover);
 }
 #switch span {
   display: block;
@@ -175,22 +175,21 @@ footer {
   }
 }
 
- /* animation */
- @keyframes slide-in {
-  from{
+/* animation */
+@keyframes slide-in {
+  from {
     left: 0;
   }
-  to{
-    left: 50%
+  to {
+    left: 50%;
   }
- }
- 
- @keyframes slide-back {
+}
+
+@keyframes slide-back {
   from {
     left: 50%;
   }
   to {
     left: 0;
   }
- }
- 
+}
